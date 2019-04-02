@@ -14,9 +14,9 @@ We make recommendations using the content of the TMDB dataset that contains arou
 ## System Mechanism
 In practice, recommendation engines are of three kinds:
 
-*popularity-based engines*: usually the most simple to implement be also the most impersonal
-*content-based engines*: the recommendations are based on the description of the products
-*collaborative filtering engines*: records from various users provide recommendations based on user similarities
+⋅⋅*popularity-based engines: usually the most simple to implement be also the most impersonal
+⋅⋅*content-based engines: the recommendations are based on the description of the products
+⋅⋅*collaborative filtering engines: records from various users provide recommendations based on user similarities
 We aimed to model an engine for recommendation of movies based on several aspects such as popularity, similarity. We would like to find similar items by using a similarity metric. Once we have the matrix, we use it to determine the best recommendations for a user based on the movies he has already liked and watched. In other words, our engine bases on popularity and content.
 
 ## Recommendation Process
